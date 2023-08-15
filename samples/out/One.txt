@@ -1,0 +1,41 @@
+
+Game board: 
+-----------
+
+  012345
+0 ######
+1 #G  T#
+2 #    #
+3 #b   #
+4 #  a #
+5 ######
+
+Please enter your move [u(p), d(own), l(eft), or r(ight)]: U
+	❌ Failed to move Tron up
+
+	Invalid entry! Try again.
+
+Please enter your move [u(p), d(own), l(eft), or r(ight)]: R
+	❌ Failed to move Tron right
+
+	Invalid entry! Try again.
+
+Please enter your move [u(p), d(own), l(eft), or r(ight)]: D
+	✅ Moved Tron down
+
+
+Game board: 
+-----------
+
+  012345
+0 ######
+1 #G   #
+2 #   T#
+3 #b   #
+4 #  a #
+5 ######
+
+Bugs   Move  Distance  | Path To Tron
+-------------------------------------
+👾 a : ur    3         | (3, 4) (4, 4), (4, 3), (4, 2)
+👾 b : ur    4         | (1, 3) (2, 3), (3, 3), (4, 3), (4, 2)
