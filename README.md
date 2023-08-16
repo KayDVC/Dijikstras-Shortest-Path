@@ -2,6 +2,7 @@
 1. [Objective](#objective)
 2. [Use](#use)
     * [Input Files](#input-files)
+    * [Example Run](#example-run)
 3. [Final Thoughts](#final-thoughts)
 
 
@@ -46,7 +47,7 @@ _Notes_:
 
 _See examples in `samples`_
 
-Example compilation & run :
+### Example Run
 
 ```bash
 cd src
